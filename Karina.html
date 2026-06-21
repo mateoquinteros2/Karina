@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Karina</title>
+    <style>
+        /* Importación de fuentes de Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400;0,500;1,400&display=swap');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+            font-family: 'Lora', serif;
+            color: #333333;
+            line-height: 1.8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* Contenedor principal estilo carta */
+        .letter-container {
+            background-color: #ffffff;
+            max-width: 600px;
+            width: 100%;
+            padding: 40px 50px;
+            border-radius: 4px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            position: relative;
+            margin: 40px 0;
+        }
+
+        /* Detalle decorativo sutil en la parte superior */
+        .letter-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(to right, #d4af37, #f3e5ab, #d4af37);
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+        }
+
+        /* Saludo inicial */
+        .salutation {
+            font-size: 1.4rem;
+            font-weight: 500;
+            margin-bottom: 25px;
+            color: #111111;
+        }
+
+        /* Párrafos del texto */
+        p {
+            font-size: 1.05rem;
+            margin-bottom: 20px;
+            text-align: justify;
+            color: #4a4a4a;
+        }
+
+        /* Despedida y firma */
+        .farewell {
+            margin-top: 40px;
+            font-size: 1.1rem;
+        }
+
+        .signature {
+            font-family: 'Great Vibes', cursive;
+            font-size: 2.5rem;
+            color: #8a7322;
+            margin-top: 10px;
+            line-height: 1;
+        }
+
+        /* Ajustes específicos para pantallas de teléfonos */
+        @media (max-width: 480px) {
+            body {
+                padding: 10px;
+                background: #ffffff; /* Fondo liso en móvil para enfocar la lectura */
+            }
+
+            .letter-container {
+                box-shadow: none;
+                padding: 20px 15px;
+                margin: 10px 0;
+            }
+
+            .letter-container::before {
+                display: none; /* Quitamos la línea en móvil para aprovechar espacio */
+            }
+
+            p {
+                font-size: 1rem;
+                line-height: 1.7;
+                text-align: left; /* Lectura más natural en pantallas pequeñas */
+                margin-bottom: 18px;
+            }
+
+            .salutation {
+                font-size: 1.25rem;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="letter-container">
+        <div class="salutation">Hola, Karina.</div>
+
+        <p>Espero que estés muy bien. Te escribo porque, aunque esta semana ha sido bastante pesada para mí y con más trabajo de lo habitual, siempre te he tenido presente. También hemos hablado mucho menos estos días y me nació preguntarte cómo has estado. Imagino que el fin de ciclo te tiene bastante ocupada, y me alegra que estés enfocándote en tus proyectos. Confío en que todo te saldrá muy bien.</p>
+
+        <p>Ya van casi tres meses desde que empezamos a hablar con frecuencia y, sinceramente, me siento muy agradecido por haberte conocido mejor. ¿Recuerdas que al principio te dije que siempre había querido hablarte, pero no sabía cómo? Hoy siento que por fin puedo hacerlo, y eso ha significado mucho para mí. Ya no eres solo la persona que admiraba desde lejos, sino alguien a quien he tenido la oportunidad de conocer de verdad. En este tiempo he aprendido mucho de ti y espero que tú también hayas encontrado algo valioso en mí.</p>
+
+        <p>Estoy agradecido porque hoy formas parte de mi vida. También entiendo que todos tenemos momentos en los que el cansancio, las responsabilidades o nuestras propias luchas nos llevan a guardar un poco de silencio. Aun así, esta semana me hizo preguntarme algo con toda honestidad: ¿hay algo que haya dicho o hecho que te hiciera tomar distancia? No te lo pregunto como un reclamo, sino porque, si en algún momento cometí un error sin darme cuenta, me gustaría saberlo. Sabes que puedes ser completamente sincera conmigo; valoro mucho más una verdad por mas dolorosa que parezca que una duda sin resolver.</p>
+
+        <p>Quiero que sepas que he intentado darte tu espacio porque respeto tus tiempos. Si también he escrito menos estos días, no ha sido por molestia ni por indiferencia, sino porque no quería ser insistentee. También sé que en tu vida hay muchas cosas sucediendo y nunca he querido que sientas que espero ser el centro de tu atención. Al contrario, me alegra poder acompañarte, aunque sea de una forma sencilla, mientras cada uno sigue construyendo su propio camino.</p>
+
+        <p>Quizá tres meses sean poco para decir que conoces bien a alguien, y sé que todavía queda mucho por descubrir. Sin embargo, cada parte de ti que he ido conociendo me ha hecho querer descubrir la siguiente. Podría hablar de tu sentido del humor, de tu sensibilidad, de tu fortaleza, de tu fe o del cariño que tienes por tu familia. Pero la verdad es que no es una cualidad en particular la que me hace apreciarte, sino tú como ser. Eso es lo que hace que quiera seguir conociéndote.</p>
+
+        <p>Quiero que sepas que aquí estoy. Y si en algún momento la vida nos lleva por caminos distintos, solo espero que nunca sea por un malentendido o por algo que pudo haberse hablado. Siempre voy a respetar tus decisiones, tus tiempos y aquello que sea mejor para ti.</p>
+
+        <p>Solo quería expresar algo que llevaba en el corazón. No busco cambiar lo que piensas ni forzar absolutamente nada. Simplemente quería ser honesto contigo, porque eres alguien muy especial para mí y deseo hacer las cosas bien, independientemente de lo que pase.</p>
+
+        <div class="farewell">
+            Cuídate mucho.
+            <!-- Puedes dejar la firma en texto o borrar la línea de abajo si prefieres que quede solo el "Cuídate mucho." -->
+            <div class="signature">Mateo</div>
+        </div>
+    </div>
+
+</body>
+</html>
